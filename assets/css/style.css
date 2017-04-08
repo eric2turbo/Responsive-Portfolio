@@ -239,8 +239,12 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-    body {
-        background-color: lightgreen;
+    .container {
+      max-width: 730px;
+    }
+
+    .main-section {
+      max-width: 400px;
     }
 }
 
