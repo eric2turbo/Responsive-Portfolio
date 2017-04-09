@@ -249,13 +249,72 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: black;
+
+    .container {
+        max-width: 93%;
+        
+    }
+
+    .main-section {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .auth-image {
+      width: 50%;
+    }
+
+    .sidebar {
+      float: none;
+      clear: both;
+      max-width: 100%;
+      margin-top: 40px
+      margin-bottom: 40px;
     }
 }
 
 @media screen and (max-width: 640px) {
-    body {
-        background-color: yellow;
+   
+    .container {
+  
+      max-width: none;
+
+    }
+
+    #masthead {
+      position: static;
+      width: 100%;
+      margin: 0;
+      
+    }
+
+    #logo {
+      width: 100%;
+      margin: 0 0 20px;
+    }
+
+    nav {
+      float: none;
+      text-align: center;
+      margin: 0;
+      word-spacing: 80px;
+      padding-bottom: 15px;
+    }
+
+    nav a {
+      line-height: 0px;
+    }
+
+    #main-container {
+      padding-top: 15px;
+    }
+
+    .auth-image {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .work {
+      width: 100%;
     }
 }
